@@ -36,7 +36,7 @@ if (!function_exists('create_button')) {
         return [
             'submit_text' => ($action == "update") ? "Update" : "Submit",
             'submit_response' => ($action == "update") ? "Updated." : "Submited.",
-            'submit_response_notyf' => ($action == "update") ? "Data ".$model." Berhasil di Update" : "Data ".$model." Berhasil di Tambahkan"
+            'submit_response_notyf' => ($action == "update") ? $model." - Atualização feita com sucesso" : $model." - Adicionado com sucesso"
         ];
     }
 }
