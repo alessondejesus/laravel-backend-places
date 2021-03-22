@@ -45,7 +45,7 @@ class Main extends Component
                         'href' => [
                             'create_new' => route('user.new'),
                             'create_new_text' => 'Buat User Baru',
-                            'export' => '#',
+                            'export' => route('user.export'),
                             'export_text' => 'Export'
                         ]
                     ])
